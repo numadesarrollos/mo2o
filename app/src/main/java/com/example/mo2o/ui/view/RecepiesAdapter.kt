@@ -27,7 +27,7 @@ class RecepiesAdapter(private val recepies: List<Recepy>, private val click: Rec
     override fun onBindViewHolder(holder: RecepiesViewHolder, position: Int) {
         val recepy = recepies.get(position)
         holder.bind(recepy)
-        holder.onClick { position, iv -> click.onItemClick(recepies.get(position),holder.ivRecepy) }
+        holder.onClick { position, _ -> click.onItemClick(recepies.get(position),holder.ivRecepy) }
     }
 
     class RecepiesViewHolder(inflater: LayoutInflater, parent: ViewGroup) :
@@ -40,7 +40,7 @@ class RecepiesAdapter(private val recepies: List<Recepy>, private val click: Rec
         val tvLink: TextView by lazy { itemView.findViewById(R.id.tv_item_link) as TextView }
 
         init {
-            ViewCompat.setTransitionName(ivRecepy,"imageTransition"+ adapterPosition)
+            ViewCompat.setTransitionName(ivRecepy, "imageTransition$adapterPosition")
         }
 
 
