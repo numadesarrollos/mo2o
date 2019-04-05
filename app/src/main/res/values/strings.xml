@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Mo2o</string>
+    <string name="ingredients">Ingredients</string>
+    <string name="web_reference">Web Reference</string>
+    <string name="TITLE_EXTRA_INTENT">title</string>
+    <string name="INGREDIENTS_EXTRA_INTENT">ingredients</string>
+    <string name="HREF_EXTRA_INTENT">href</string>
+    <string name="THUMBNAIL_EXTRA_INTENT">thumbnail</string>
+</resources>
