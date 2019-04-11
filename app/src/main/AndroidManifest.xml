@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-          package="com.example.mo2o">
+          package="com.numadesarrollos.recepysearcher">
 
     <uses-permission android:name="android.permission.INTERNET" />
 
@@ -12,14 +12,14 @@
             android:supportsRtl="true"
             android:theme="@style/AppTheme"
             android:usesCleartextTraffic="true">
-        <activity android:name=".ui.view.MainActivity">
+        <activity android:name="com.numadesarrollos.com.numadesarrollos.recepysearcher.ui.view.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        <activity android:name=".ui.view.DetailActivity"/>
+        <activity android:name="com.numadesarrollos.com.numadesarrollos.recepysearcher.ui.view.DetailActivity"/>
     </application>
 
 </manifest>

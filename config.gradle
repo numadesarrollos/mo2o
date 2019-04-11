@@ -1,7 +1,7 @@
 ext.versions = [
 
         //config
-        appId             : "com.example.mo2o",
+        appId             : "com.numadesarrollos.recepysearcher",
         code              : 1,
         name              : '1.0',
         minSdk            : 21,
